@@ -1,0 +1,18 @@
+CREATE TABLE stock_equity_data(
+  serial_num serial NOT NULL,
+  trade_date date NOT NULL,
+  sc_code  integer NOT NULL,
+  sc_name character varying(50) NOT NULL,
+  sc_group character varying(50),
+  sc_type character varying(50),
+  open_price integer,
+  high_price integer,
+  low_price integer,
+  close_price integer,
+  last_price integer,
+  prevclose integer,
+  no_of_trades integer,
+  no_of_shares integer,
+  net_turn_over integer,
+  tdcloindi integer,
+  PRIMARY KEY(trade_date,sc_code))	
