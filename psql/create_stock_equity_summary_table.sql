@@ -1,0 +1,15 @@
+CREATE TABLE stock_equity_summary(
+  serial_num serial NOT NULL,
+  processed_date date NOT NULL,
+  sc_code  integer NOT NULL,
+  sc_name character varying(50) NOT NULL,
+  current_closing_price double precision,	
+  cp_moving_avg_200_days double precision,	
+  cp_moving_avg_50_days double precision,		
+  cp_moving_avg_30_days double precision,
+  cp_moving_avg_200_match_status character varying(20), 
+  cp_moving_avg_50_match_status character varying(20), 
+  cp_moving_avg_30_match_status character varying(20), 	
+  created_date timestamp without time zone,
+  updated_date timestamp without time zone,	
+  PRIMARY KEY(processed_date,sc_code))	
