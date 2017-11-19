@@ -11,14 +11,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UpsertStockEquitySummary.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UpsertStockEquitySummary.py">
+      <file leaf-file-name="GenerateStockEquitySummaryReport.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GenerateStockEquitySummaryReport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-835">
-              <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+            <state relative-caret-position="1379">
+              <caret line="96" column="79" lean-forward="false" selection-start-line="96" selection-start-column="79" selection-end-line="96" selection-end-column="79" />
               <folding>
                 <element signature="e#18#33#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendMail.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SendMail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getStockEquitySummary30File.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/getStockEquitySummary30File.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getCPmovingavg.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/getCPmovingavg.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getLatestClosingPriceByScCode.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/getLatestClosingPriceByScCode.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getStockEquitySummary50File.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/getStockEquitySummary50File.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpsertStockEquitySummary.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UpsertStockEquitySummary.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getStockNames.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/getStockNames.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -33,31 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getCPmovingavg.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/getCPmovingavg.sql">
+      <file leaf-file-name="getStockEquitySummary200File.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sql/getStockEquitySummary200File.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getStockNames.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/getStockNames.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBConnect.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DBConnect.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="40" column="32" lean-forward="false" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+            <state relative-caret-position="198">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -76,12 +128,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/DBConnect.py" />
-        <option value="$PROJECT_DIR$/sql/getStockNames.sql" />
         <option value="$PROJECT_DIR$/sql/getCPmovingavg200days.sql" />
-        <option value="$PROJECT_DIR$/sql/getLatestClosingPriceByScCode.sql" />
         <option value="$PROJECT_DIR$/sql/UpsertStockEquitySummary.sql" />
         <option value="$PROJECT_DIR$/UpsertStockEquitySummary.py" />
+        <option value="$PROJECT_DIR$/sql/getStockEquitySummaryFile.sql" />
+        <option value="$PROJECT_DIR$/sql/getStockEquitySummary200File.sql" />
+        <option value="$PROJECT_DIR$/sql/getStockEquitySummary50File.sql" />
+        <option value="$PROJECT_DIR$/sql/getStockEquitySummary30File.sql" />
+        <option value="$PROJECT_DIR$/GenerateStockEquitySummaryReport.py" />
+        <option value="$PROJECT_DIR$/SendMail.py" />
+        <option value="$PROJECT_DIR$/sql/getStockNames.sql" />
         <option value="$PROJECT_DIR$/sql/getCPmovingavg.sql" />
+        <option value="$PROJECT_DIR$/sql/getLatestClosingPriceByScCode.sql" />
       </list>
     </option>
   </component>
@@ -138,7 +196,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.UpsertStockEquitySummary">
+  <component name="RunManager" selected="Python.GenerateStockEquitySummaryReport">
+    <configuration name="GenerateStockEquitySummaryReport" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyscripts" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GenerateStockEquitySummaryReport.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="UpsertStockEquitySummary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,9 +231,14 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.UpsertStockEquitySummary" />
+      <item index="1" class="java.lang.String" itemvalue="Python.GenerateStockEquitySummaryReport" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.UpsertStockEquitySummary" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.GenerateStockEquitySummaryReport" />
+        <item index="1" class="java.lang.String" itemvalue="Python.UpsertStockEquitySummary" />
       </list>
     </recent_temporary>
   </component>
@@ -215,26 +295,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/getStockNames.sql">
+    <entry file="file://$PROJECT_DIR$/GenerateStockEquitySummaryReport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="1379">
+          <caret line="96" column="79" lean-forward="false" selection-start-line="96" selection-start-column="79" selection-end-line="96" selection-end-column="79" />
+          <folding>
+            <element signature="e#18#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UpsertStockEquitySummary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SendMail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/getCPmovingavg.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/getLatestClosingPriceByScCode.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="108">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/getCPmovingavg.sql">
+    <entry file="file://$PROJECT_DIR$/sql/getStockEquitySummary30File.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        <state relative-caret-position="180">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/getStockNames.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -247,13 +363,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UpsertStockEquitySummary.py">
+    <entry file="file://$PROJECT_DIR$/sql/getStockEquitySummary50File.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-835">
-          <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-          <folding>
-            <element signature="e#18#33#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/getStockEquitySummary200File.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
