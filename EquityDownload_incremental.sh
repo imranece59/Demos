@@ -1,5 +1,7 @@
 #!/bin/bash
 export PGPASSFILE=~/.pgpass
+export PGUSER=postgres
+export PGPASSWORD=Netradyne123
 cd /home/ubuntu/data/input
 pwd
 date=`date +%Y-%m-%d`
@@ -33,7 +35,7 @@ no_of_trades double precision,
 no_of_shares double precision,
 net_turn_over double precision,
 trade_date date NOT NULL) ON COMMIT DROP;
-\COPY STAGE_DATA(sc_code,sc_name,sc_group,sc_type,open_price,high_price,low_price,close_price,last_price,prevclose,no_of_trades,no_of_shares,net_turn_over,trade_date) FROM /home/mohamedimran/stock/data/$modifiedfilename with delimiter ',' csv header;
+\COPY STAGE_DATA(sc_code,sc_name,sc_group,sc_type,open_price,high_price,low_price,close_price,last_price,prevclose,no_of_trades,no_of_shares,net_turn_over,trade_date) FROM /home/ubuntu/data/input/$modifiedfilename with delimiter ',' csv header;
 INSERT INTO stock_equity_data(sc_code,sc_name,sc_group,sc_type,open_price,high_price,low_price,close_price,last_price,prevclose,no_of_trades,no_of_shares,net_turn_over,trade_date)
 SELECT sc_code,sc_name,sc_group,sc_type,open_price,high_price,low_price,close_price,last_price,prevclose,no_of_trades,no_of_shares,net_turn_over,trade_date
 FROM stage_data where sc_type ='Q'

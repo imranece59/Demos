@@ -5,6 +5,7 @@ import datetime
 import pandas as pd
 import SendMail
 
+
 from DBConnect import DB
 
 
@@ -56,10 +57,10 @@ def generateStockEquityReport():
     resultdf.to_excel(writer, 'StockEquitySummaryOf200Days', index=False)
     workbook = writer.book
     worksheet = writer.sheets['StockEquitySummaryOf200Days']
-    worksheet.set_column('A:A', 15)
-    worksheet.set_column('B:B', 25)
-    worksheet.set_column('C:C', 25)
-    worksheet.set_column('D:D', 25)
+#    worksheet.set_column('A:A', 15)
+#    worksheet.set_column('B:B', 25)
+#    worksheet.set_column('C:C', 25)
+#    worksheet.set_column('D:D', 25)
 
     resultset2 = getStockEquitySummaryDays(getStockEquitySummary50File)
     resultdf2 = pd.DataFrame(resultset2, columns=['ScCode', 'StockName', 'Latest CMP', 'AverageClosingPrice', 'Status'])
@@ -67,10 +68,10 @@ def generateStockEquityReport():
     resultdf2.to_excel(writer, 'StockEquitySummaryOf50Days', index=False)
     workbook = writer.book
     worksheet = writer.sheets['StockEquitySummaryOf50Days']
-    worksheet.set_column('A:A', 15)
-    worksheet.set_column('B:B', 25)
-    worksheet.set_column('C:C', 25)
-    worksheet.set_column('D:D', 25)
+#    worksheet.set_column('A:A', 15)
+#    worksheet.set_column('B:B', 25)
+#    worksheet.set_column('C:C', 25)
+#    worksheet.set_column('D:D', 25)
 
     resultset3 = getStockEquitySummaryDays(getStockEquitySummary30File)
     resultdf3 = pd.DataFrame(resultset3, columns=['ScCode', 'StockName', 'Latest CMP', 'AverageClosingPrice', 'Status'])
@@ -78,10 +79,10 @@ def generateStockEquityReport():
     resultdf3.to_excel(writer, 'StockEquitySummaryOf30Days', index=False)
     workbook = writer.book
     worksheet = writer.sheets['StockEquitySummaryOf30Days']
-    worksheet.set_column('A:A', 15)
-    worksheet.set_column('B:B', 25)
-    worksheet.set_column('C:C', 25)
-    worksheet.set_column('D:D', 25)
+#    worksheet.set_column('A:A', 15)
+#    worksheet.set_column('B:B', 25)
+#    worksheet.set_column('C:C', 25)
+#    worksheet.set_column('D:D', 25)
 
     writer.save()
 
